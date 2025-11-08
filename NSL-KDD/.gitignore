@@ -1,0 +1,98 @@
+# ---------------------------------------------
+# General OS and editor files
+# ---------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+~$*
+
+# ---------------------------------------------
+# Python / Jupyter
+# ---------------------------------------------
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.env
+.venv/
+env/
+venv/
+
+# ---------------------------------------------
+# Build / Log / Output directories
+# ---------------------------------------------
+build/
+dist/
+logs/
+log/
+*.log
+output/
+outputs/
+results/
+tmp/
+temp/
+*.out
+
+# ---------------------------------------------
+# Large data, models, and binaries
+# ---------------------------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+*.pth
+*.pt
+*.model
+*.weights
+*.onnx
+
+# ---------------------------------------------
+# Media files (common in deepfake or CV projects)
+# ---------------------------------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+frames/
+videos/
+images/
+
+# ---------------------------------------------
+# Virtualization / containers
+# ---------------------------------------------
+*.iso
+*.vdi
+*.vmdk
+*.qcow2
+*.img
+Dockerfile~
+*.pid
+
+# ---------------------------------------------
+# Git LFS hint (if using LFS)
+# ---------------------------------------------
+# If you plan to use Git LFS for large files, unignore them here:
+# !*.pth
+# !*.pt
+# !*.mp4
+# Then track them with: git lfs track "*.pth" "*.pt" "*.mp4"
